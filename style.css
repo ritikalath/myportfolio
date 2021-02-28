@@ -1,0 +1,199 @@
+:root{
+    --primary:#3DCFD3;
+    --dark:#161616;
+    
+}
+
+*{
+    padding: 0;
+    margin:0;
+}
+section{
+    height: 100vh;
+}
+
+#navbar{
+    background-color: var(--dark);
+    position: absolute;
+    top:0;
+    right:5px;
+}
+
+ul{
+    background-color: var(--dark);
+}
+
+li {
+    list-style-type:none;
+    float:left;
+    color:white;
+    padding-top: 14px;
+    background-color: var(--dark);
+}
+li a {
+    padding: 14px 16px;
+}
+a:link{
+    text-decoration: none;
+    font-size: 20px;
+    color:white;
+    font-weight: bold;
+}
+a:visited{
+    text-decoration: none;
+    font-size: 20px;
+    color:white;
+    font-weight: bold;
+}
+a:hover{
+    font-weight: bold;
+    background-color:var(--primary);
+    color:black;
+}
+a:active{
+    font-weight: bold;
+    background-color: var(--primary);
+    color:black;
+}
+
+#aboutme img{
+    position: absolute;
+    top:15%;
+    left:5%;
+}
+#intro{
+    position: absolute;
+    top:35%;
+    left:50%;
+    color:rgb(244,235,235);
+    
+}
+#mainintro{
+    font-family: monospace;
+    font-size: 40px;
+    letter-spacing: 1px;
+    line-height: 50px;
+}
+span{
+    color:var(--primary);
+}
+
+#smallintro{
+    margin-top: 20px;
+    color:rgb(224,235,235);
+    font-size: 17px;
+    line-height: 30px;
+}
+#mainimg{
+    margin:20px;
+}
+
+#aboutme{
+    background-color:#161616;
+    clip-path: polygon(0 0,100% 0,100% 98%,70% 85%,0 98%);
+}
+
+#Education .heading{
+    position: absolute;
+    right:0;
+    margin-top: 5%;
+    font-size: 60px;
+    font-family: Courier New;
+}
+#Education .text{
+    position: absolute;
+    top:25px;
+    right:600px;
+}
+#para{
+    position: relative;
+    width:550px;
+    top:35%;
+    left:30%;
+    padding:20px;
+    font-size: 20px;
+    line-height: 35px;
+    letter-spacing: 1.5px;
+    font-family: Papyrus;
+    font-weight: bold;
+    background-color: rgb(240,245,245);
+    border:1px solid rgb(240,245,245));
+    border-radius: 25px;
+}
+
+#Hobbies{
+    background-color: rgb(240,245,245);
+}
+
+#Hobbies .heading{
+    font-size: 60px;
+    font-family: Courier New;
+    position: absolute;
+    margin-top: 5%;
+    left:0%;
+}
+
+#Hobbies  h2{
+    position: absolute;
+    left:600px;
+    top:20px;
+}
+
+#hobby{
+    position: relative;
+    top:37%;
+    left:32%;
+    padding:20px;
+    font-size: 20px;
+    line-height: 35px;
+    letter-spacing: 1.5px;
+    font-family: Papyrus;
+    font-weight: bold;
+    width:700px;
+    border:1px solid white;
+    background-color: white;
+    border-radius: 25px;
+}
+
+#ContactMe{
+    background-color:black;
+    clip-path: polygon(0 0,100% 0,100% 70%,0 98%);
+}
+
+#ContactMe .heading{
+    color:white;
+    position: absolute;
+    font-size: 30px;
+    font-family: Verdana;
+    margin:20px auto;
+    left: 40%;
+}
+
+#ContactMe .heading span{
+    color:var(--primary)
+}
+
+#center{
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    top:170px;
+}
+
+td{
+    padding:60px;
+}
+
+td>p{
+    color:rgb(224,235,235);
+    text-align:center;
+    font-size: 20px;
+}
+
+.upper{
+    font-style: italic;
+}
+
+td>img{
+    margin-bottom:20px;
+}
